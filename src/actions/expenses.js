@@ -21,7 +21,6 @@ export const startAddExpense = (expenseData = {}) => {
                 ...expense
             }))
         })
-
     };
 };
 
