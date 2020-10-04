@@ -1,124 +1,150 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render Expense form correctly 1`] = `
-<div>
-  <form
-    onSubmit={[Function]}
-  >
-    <input
-      autoFocus={true}
-      onChange={[Function]}
-      placeholder="Description"
-      type="text"
-      value=""
-    />
-    <input
-      onChange={[Function]}
-      placeholder="Amount"
-      type="text"
-      value=""
-    />
-    <textarea
-      onChange={[Function]}
-      placeholder="Add a note for your expense (optional)"
-      value=""
-    />
-    <button>
-      Add expense
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <input
+    autoFocus={true}
+    className="text-input"
+    onChange={[Function]}
+    placeholder="Description"
+    type="text"
+    value=""
+  />
+  <input
+    className="text-input"
+    onChange={[Function]}
+    placeholder="Amount"
+    type="text"
+    value=""
+  />
+  <textarea
+    className="textarea"
+    onChange={[Function]}
+    placeholder="Add a note for your expense (optional)"
+    value=""
+  />
+  <div>
+    <button
+      className="button"
+    >
+      Save expense
     </button>
-  </form>
-</div>
+  </div>
+</form>
 `;
 
 exports[`should render Expense form with data 1`] = `
-<div>
-  <form
-    onSubmit={[Function]}
-  >
-    <input
-      autoFocus={true}
-      onChange={[Function]}
-      placeholder="Description"
-      type="text"
-      value="Gum"
-    />
-    <input
-      onChange={[Function]}
-      placeholder="Amount"
-      type="text"
-      value="1.95"
-    />
-    <textarea
-      onChange={[Function]}
-      placeholder="Add a note for your expense (optional)"
-      value=""
-    />
-    <button>
-      Add expense
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <input
+    autoFocus={true}
+    className="text-input"
+    onChange={[Function]}
+    placeholder="Description"
+    type="text"
+    value="Gum"
+  />
+  <input
+    className="text-input"
+    onChange={[Function]}
+    placeholder="Amount"
+    type="text"
+    value="1.95"
+  />
+  <textarea
+    className="textarea"
+    onChange={[Function]}
+    placeholder="Add a note for your expense (optional)"
+    value=""
+  />
+  <div>
+    <button
+      className="button"
+    >
+      Save expense
     </button>
-  </form>
-</div>
+  </div>
+</form>
 `;
 
 exports[`should render error msg for invalid submission 1`] = `
-<div>
-  <form
-    onSubmit={[Function]}
-  >
-    <input
-      autoFocus={true}
-      onChange={[Function]}
-      placeholder="Description"
-      type="text"
-      value=""
-    />
-    <input
-      onChange={[Function]}
-      placeholder="Amount"
-      type="text"
-      value=""
-    />
-    <textarea
-      onChange={[Function]}
-      placeholder="Add a note for your expense (optional)"
-      value=""
-    />
-    <button>
-      Add expense
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <input
+    autoFocus={true}
+    className="text-input"
+    onChange={[Function]}
+    placeholder="Description"
+    type="text"
+    value=""
+  />
+  <input
+    className="text-input"
+    onChange={[Function]}
+    placeholder="Amount"
+    type="text"
+    value=""
+  />
+  <textarea
+    className="textarea"
+    onChange={[Function]}
+    placeholder="Add a note for your expense (optional)"
+    value=""
+  />
+  <div>
+    <button
+      className="button"
+    >
+      Save expense
     </button>
-  </form>
-</div>
+  </div>
+</form>
 `;
 
 exports[`should render error msg for invalid submission 2`] = `
-<div>
-  <p>
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <p
+    className="form__error"
+  >
     Please provide description and amount.
   </p>
-  <form
-    onSubmit={[Function]}
-  >
-    <input
-      autoFocus={true}
-      onChange={[Function]}
-      placeholder="Description"
-      type="text"
-      value=""
-    />
-    <input
-      onChange={[Function]}
-      placeholder="Amount"
-      type="text"
-      value=""
-    />
-    <textarea
-      onChange={[Function]}
-      placeholder="Add a note for your expense (optional)"
-      value=""
-    />
-    <button>
-      Add expense
+  <input
+    autoFocus={true}
+    className="text-input"
+    onChange={[Function]}
+    placeholder="Description"
+    type="text"
+    value=""
+  />
+  <input
+    className="text-input"
+    onChange={[Function]}
+    placeholder="Amount"
+    type="text"
+    value=""
+  />
+  <textarea
+    className="textarea"
+    onChange={[Function]}
+    placeholder="Add a note for your expense (optional)"
+    value=""
+  />
+  <div>
+    <button
+      className="button"
+    >
+      Save expense
     </button>
-  </form>
-</div>
+  </div>
+</form>
 `;
